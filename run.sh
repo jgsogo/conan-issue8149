@@ -12,7 +12,5 @@ conan create libE.py libE/1.1.2@
 conan create libF.py libF/1.1.1@
 conan create libF.py libF/1.1.2@
 
-conan info libD.py -n id
-conan info libDalt.py -n id
-
-conan create libDalt.py "libD/version@"
+conan create libD.py "libD/1.1.2@"
+conan create libDalt.py "libD/1.1.2@"
